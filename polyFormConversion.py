@@ -82,7 +82,7 @@ def setDegrees(string):
     return current_coefficent
                     
 
-def setCoefficents(string):
+def getNumpy1D(string):
     current_coefficent = setDegrees(string)
     coefficent_values = list()
     for i, char in enumerate(string): # Seeks coefficents, then places them into the degree structured array respectively. 
@@ -106,8 +106,8 @@ def setCoefficents(string):
     return np.poly1d(current_coefficent)
 
 
-x = setCoefficents("2x^3+7x^2+-4x+7")
-y = setCoefficents("x^2+2x+-1")
+x = getNumpy1D("2x^3+7x^2+-4x+7")
+y = getNumpy1D("x^2+2x+-1")
 
 quotient, remainder = np.polydiv(x, y) 
   

@@ -43,7 +43,7 @@ def getExponet(string, i):
 
 
 def setDegrees(string):
-    current_coefficent = [] # Run logic based off of ^ not off of x to enusre degree is placed first. 
+    current_coefficent = [] 
     current_degree = 11111
     for i, char in enumerate(string): # Structures array, accounting for changes in the degree.
 
@@ -74,7 +74,7 @@ def setDegrees(string):
                         if current_val != int(current_degree) - 1:
                             difference =  int(current_degree) - current_val
                             current_degree = current_val
-                            for i in range(difference-1): # difference might be difference - 1 
+                            for i in range(difference-1):
                                 current_coefficent.append(0)
 
                         else:
@@ -102,7 +102,7 @@ def getNumpy1D(string):
     for i, char in enumerate(string): # Seeks coefficents, then places them into the degree structured array respectively. 
         
         if char == "x":
-            if string[i-1].isdigit(): # Also need to add a check here for if value is negative
+            if string[i-1].isdigit():
                 coefficent_values.append(getNum(string, i))
             else:
                 if string[i-1] == "-":

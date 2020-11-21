@@ -118,8 +118,6 @@ def getNumpy1D(string):
             current_coefficent[num] = coefficent_values[0]
             coefficent_values.pop(0)
     
-    print(current_coefficent)
-
     return np.poly1d(current_coefficent)
 
  

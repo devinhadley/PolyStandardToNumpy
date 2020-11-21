@@ -1,4 +1,4 @@
-# polystandardtonumpy
+# PolyStandardToNumpy
 <small> Converts a polynomial written in standard form via a string, into a numpy1DPolynomial </small>
 <hr>
 <h3> Installation </h3>

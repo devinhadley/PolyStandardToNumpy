@@ -1,5 +1,5 @@
 # polystandardtonumpy
-
+<small> Converts a polynomial written in standard form via a string, into a numpy1DPolynomial </small>
 <hr>
 <h3> Installation </h3>
 <p> Simply copy and paste the contents from polyFormConversion.py into a file, then import the getNumpy1D function. There are other functions within the code, but you will most likely have no reason to use them.</p>

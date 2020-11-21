@@ -9,7 +9,7 @@
 <h3> Formatting </h3>
 <p><strong>It is essential that you follow the formatting rules!</strong></p>
 <ol type="1">
-	<li>Polynomials need to be ordered from greatest degree, to lowest degree per standard convention.</li>
+	<li>Polynomials need to be ordered from greatest degree to lowest degree per standard convention.</li>
 	<li>Exponets are written using ^. Ex: x^5+x</li>
 	<li>No spaces.</li>
   <li>x's should be lowercase.</li>

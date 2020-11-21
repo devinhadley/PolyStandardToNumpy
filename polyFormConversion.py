@@ -122,10 +122,4 @@ def getNumpy1D(string):
 
     return np.poly1d(current_coefficent)
 
-
-print(getNumpy1D("x^10-x^5-x^2-5"))
-
-# quotient, remainder = np.polydiv(x, y) 
-  
-#print(quotient) 
-#print(remainder) 
+ 

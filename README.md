@@ -2,7 +2,7 @@
 <small> Converts a polynomial written in standard form via a string, into a NumPy 1D polynomial </small>
 <hr>
 <h3> Installation </h3>
-<p> Simply copy and paste the contents from polyFormConversion.py into a file, then import the getNumpy1D function. There are other functions within the code, but you will most likely have no reason to use them.</p>
+<p> Simply copy and paste the contents from polyFormConversion.py into a file, or download the latest release then import the getNumpy1D function. There are other functions within the code, but you will most likely have no reason to use them.</p>
 <p> Also ensure you have numpy installed as getNumpy1D returns a numpy poly1d.</p>
 
 <hr>
